@@ -1,11 +1,13 @@
 import { Product } from './types/Product';
 
+let testImage =
+  'https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
 export const sampleProducts: Product[] = [
   {
     name: 'Nike slim shirt',
     slug: 'nike-slim-shirt',
     category: 'shirts',
-    image: '../images/p1.jpg',
+    image: testImage,
     price: 120,
     countInStock: 10,
     brand: 'Nike',
@@ -18,7 +20,7 @@ export const sampleProducts: Product[] = [
     name: 'Adidad fit shirt',
     slug: 'adidas-fit-shirt',
     category: 'shirts',
-    image: '../images/p2.jpg',
+    image: testImage,
     price: 100,
     countInStock: 10,
     brand: 'Adidas',
@@ -31,7 +33,7 @@ export const sampleProducts: Product[] = [
     name: 'Lacoste free pants',
     slug: 'lacoste-free-pants',
     category: 'pants',
-    image: '../images/p3.jpg',
+    image: testImage,
     price: 220,
     countInStock: 0,
     brand: 'Lacoste',
@@ -44,7 +46,7 @@ export const sampleProducts: Product[] = [
     name: 'Nike slim pant',
     slug: 'nike-slim-pant',
     category: 'shirts',
-    image: '../images/p4.jpg',
+    image: testImage,
     price: 110,
     countInStock: 15,
     brand: 'Nike',
